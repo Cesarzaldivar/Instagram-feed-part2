@@ -1,0 +1,42 @@
+body{
+    background: black;
+}
+.container{
+    background-color: white;
+    height: 620px;
+    width: 365px;
+    margin: auto;
+}
+.header{
+    /*background-color: red;*/
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    /*background-color: yellow;*/
+    display: flex;
+    flex-direction: column;
+}
+.left p{
+    margin: 5px 0;
+}
+.right{
+    /*background-color: pink;*/
+    margin-right: 5px;
+    font-size: 40px;
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+.iconos{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.icono-derecha{
+    margin-left: auto;
+}
